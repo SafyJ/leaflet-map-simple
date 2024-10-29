@@ -27,7 +27,7 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [41.74678840868509, -72.68863474065175], // EDIT coordinates to re-center map
+    center: [41.74, -72.68], // EDIT coordinates to re-center map
     zoom: 12,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
     scrollWheelZoom: false
   });
@@ -42,7 +42,7 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([41.74678840868509, -72.68863474065175]).addTo(map) // EDIT marker coordinates
+  L.marker([41.74, -72.68]).addTo(map) // EDIT marker coordinates
   .bindPopup("Ferris Athletic Center"); // EDIT pop-up text message
 
   </script>
